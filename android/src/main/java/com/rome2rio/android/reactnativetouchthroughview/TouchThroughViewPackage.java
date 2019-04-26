@@ -23,7 +23,6 @@ public class TouchThroughViewPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         TouchThroughViewManager touchThroughViewManager = new TouchThroughViewManager();
         TouchThroughWrapperManager touchThroughWrapperManager = new TouchThroughWrapperManager();
